@@ -2,7 +2,7 @@
 # 1. run git clone https://github.com/alexcadar/exchange.git
 # 2. cd into the project directory
 # 3. run npm install
-# run npm start
+# 4. run npm start
 
 # Screenshots
 
