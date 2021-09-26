@@ -1,0 +1,26 @@
+.currencyList {
+  display: grid;
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 6%;
+  width: 100%;
+  align-content: center;
+  scrollbar-color: red;
+}
+
+.selectOption {
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+  line-height: 1.8em;
+  font-size: 0.8em;
+  cursor: pointer;
+  width: 17em;
+}
+.selectOption:hover {
+  background-color: rgb(140, 171, 207) !important;
+}

@@ -1,0 +1,77 @@
+.modalBackground {
+  width: 100vw;
+  height: 150vh;
+  background-color: #606674;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  max-width: 20em;
+  width: 60%;
+  height: 55%;
+  border-radius: 12px;
+  background-color: #a5a7ac;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: grid;
+  padding: 25px;
+}
+
+.modalBody {
+  display: grid;
+}
+
+.modalTitle {
+  display: inline-block;
+  text-align: center;
+}
+.closeModal {
+  display: flex;
+  justify-content: flex-end;
+  height: calc(3vw + 17px);
+  width: 100%;
+}
+#buttonX:hover {
+  border: 1px solid #ecf7fd;
+  -moz-box-shadow: 0 0 0 1px #3c7fb1;
+  box-shadow: 0 0 0 1x #3c7fb1;
+  background: -moz-linear-gradient(
+    top,
+    #eaf6fd 0%,
+    #d9f0fc 50%,
+    #bee6fd 51%,
+    #a7d9f5 100%
+  );
+}
+#buttonX {
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  border-radius: 0px;
+  background: black;
+  color: white;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 1.3em;
+  height: 1.34em;
+  width: 1.34em;
+}
+
+.currencies {
+  display: grid;
+  justify-content: center;
+  padding-top: 3em;
+  height: 500px;
+}
+.modalTitle h1 {
+  color: rgb(14, 13, 53);
+  font-size: 1.34em;
+}
+
+.button {
+  margin-bottom: 2em;
+  align-items: flex-end;
+  display: flex;
+}
